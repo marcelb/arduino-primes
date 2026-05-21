@@ -72,7 +72,7 @@ void setup() {
   st7789->init(170, 320);
 
   ledcAttach(st7789_LED_K_Pin, 1000, 8);
-  ledcWrite(st7789_LED_K_Pin, 47);
+  ledcWrite(st7789_LED_K_Pin, 55);
 
   st7789->setRotation(1);
   st7789->fillScreen(ST7789_BLACK);
